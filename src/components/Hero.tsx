@@ -19,18 +19,23 @@ export default function Hero() {
         className="absolute inset-0 w-full h-full"
       >
         <img
-          src="/images/mountain-landscape.jpg"
-          alt="Mountain landscape"
+          src="https://cdn.poehali.dev/projects/4a5cbee6-dc38-40d8-b6c2-0b4977359b94/files/61864c43-9b11-464b-bb47-b17e02af6af9.jpg"
+          alt="Кижский погост — вид на Церковь Преображения Господня"
           className="w-full h-full object-cover"
         />
+        <div className="absolute inset-0 bg-black/30" />
       </motion.div>
 
-      <div className="relative z-10 text-center text-white">
-        <h1 className="text-5xl md:text-7xl lg:text-8xl font-bold tracking-tight mb-6">
-          ОТКРОЙ
+      <div className="relative z-10 text-center text-white px-6">
+        <p className="text-xs md:text-sm uppercase tracking-[0.3em] mb-4 opacity-80">
+          Объект Всемирного наследия ЮНЕСКО с 1990 г. · № 544
+        </p>
+        <h1 className="text-4xl md:text-6xl lg:text-8xl font-bold tracking-tight mb-6 leading-tight">
+          КИЖСКИЙ<br />ПОГОСТ
         </h1>
-        <p className="text-lg md:text-xl max-w-2xl mx-auto px-6 opacity-90">
-          Исследуй границы дизайна с иммерсивным параллакс-эффектом
+        <p className="text-base md:text-xl max-w-2xl mx-auto opacity-90 leading-relaxed">
+          Шедевр деревянного зодчества России на острове Кижи<br className="hidden md:block" />
+          в Онежском озере, Республика Карелия
         </p>
       </div>
     </div>
